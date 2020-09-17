@@ -21,7 +21,7 @@ body{
   color: #252a30;
 }
 .container{
-  margin: 30px auto;
+  margin:auto;
   width: 350px;
 }
 h1{
@@ -51,7 +51,14 @@ h4{
   margin: 0;
   text-transform: uppercase;
   letter-spacing: 1px;
+  text-align: center;
 }
+#balance{
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
 .inc-exp-container{
   background: linear-gradient(0deg, rgba(37,42,48,1) 0%, rgba(20,21,26,1) 100%);
   box-shadow: var(--box-shadow);
@@ -94,6 +101,7 @@ input[type='number']{
   font-size: 16px;
   padding: 10px;
   width: 100%;
+  color: #fff;
 }
 .btn{
   background: linear-gradient(0deg, rgba(37,42,48,1) 0%, rgba(20,21,26,1) 100%);
